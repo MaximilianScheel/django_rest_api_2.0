@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'todo',
 ]
 
 MIDDLEWARE = [
@@ -131,3 +132,4 @@ MEDIA_ROOT = '/home/maxsc/test/todolist_api/media'
 MEDIA_URL = '/media/'
 STATIC_ROOT = '/home/maxsc/test/todolist_api/static'
 STATIC_URL = '/static/'
+
