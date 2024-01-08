@@ -15,3 +15,6 @@ class Todo(models.Model):
 
     def _str_(self):
         return self.title
+    
+    def time_passed(self):
+        return datetime.date.today() - self.created_at
